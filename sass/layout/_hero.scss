@@ -1,0 +1,65 @@
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 85vh;
+  background-image: url("https://preview.milingona.co/themes/bakery/catalog/wp-content/uploads/2017/12/slide-1.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  &__left-arrow {
+    @include icon(
+      50px,
+      transparent,
+      white,
+      2px solid white,
+      white,
+      $main-color
+    );
+    text-align: center;
+    font-size: 25px;
+    margin: 20px;
+  }
+  &__right-arrow {
+    @include icon(
+      50px,
+      transparent,
+      white,
+      2px solid white,
+      white,
+      $main-color
+    );
+    text-align: center;
+    font-size: 25px;
+    margin: 20px;
+  }
+  &__text {
+    position: relative;
+    margin: auto;
+    text-align: center;
+    width: 50%;
+    p:first-child {
+      @include font($main-color, 25px, "Open Sans", 600);
+      line-height: 35px;
+    }
+    h1 {
+      @include font(white, 35px, "Poppins", 600);
+      line-height: 35px;
+      margin-block: 5px 15px;
+    }
+    p:last-child {
+      @include font(rgba(255, 255, 255, 0.9), 18px, "Open Sans", 400);
+      line-height: 24px;
+    }
+  }
+
+  &__points {
+    display: flex;
+    align-self: center;
+    gap: 10px;
+    position: absolute;
+    bottom: 25px;
+    left: calc(50% - 50px / 2);
+  }
+}

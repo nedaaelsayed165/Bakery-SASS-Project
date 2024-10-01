@@ -1,0 +1,40 @@
+.horizontal-card {
+    display: flex;
+    width: 50%;
+    padding: 0 15px;
+    img {
+        border-radius: 50%;
+        margin-right: 20px;
+        width: 115px;
+        height: 115px;
+    }
+    p {
+        line-height: 24px;
+    }
+    &__price {
+        color: $main-color;
+    }
+}
+
+.vertical-card {
+    display: flex;
+    flex-wrap: wrap;
+    width: 25%;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 50%;
+    padding: 0 15px;
+    &__img-container {
+        border-radius: 50%;
+        width: 140px;
+        height: 140px;
+        margin-bottom: 30px;
+    }
+    h2 {
+        margin-bottom: 15px;
+    }
+    p {
+        line-height: 24px;
+    }
+}

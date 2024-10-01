@@ -1,0 +1,29 @@
+.btn {
+  @include button(white);
+  border: 2px solid $btn-color;
+  &:hover {
+    @include eleHover();
+  }
+}
+.btn--color-orange {
+  &:hover {
+    @include eleHover($main-color, white);
+    border-color: $main-color;
+  }
+}
+.btn-reverse {
+  @include button($main-color);
+  border: 2px solid $main-color;
+  &:hover {
+    @include eleHover($main-color, white);
+  }
+}
+.borderless-btn {
+  @include button(white);
+  &:hover {
+    @include eleHover($main-color, white);
+  }
+  &.active {
+    color: $main-color;
+  }
+}

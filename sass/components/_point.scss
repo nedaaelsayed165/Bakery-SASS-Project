@@ -1,0 +1,23 @@
+.point {
+    border: 2px solid white;
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    &::before {
+        content: "";
+        height: 8px;
+        width: 8px;
+        border-radius: 50%;
+        background-color: transparent;
+        transition: all 0.3s;
+    }
+    &.active::before,
+    &:hover::before {
+        background-color: white;
+    }
+}

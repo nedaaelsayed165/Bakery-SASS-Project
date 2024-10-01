@@ -1,0 +1,29 @@
+.statistics {
+    background-image: linear-gradient(
+            rgba(235, 181, 118, 0.95),
+            rgba(235, 181, 118, 0.95)
+        ),
+        url("https://preview.milingona.co/themes/bakery/catalog/wp-content/uploads/2017/12/pattern-1.jpg?id=2228");
+    padding: 70px;
+
+    &__cards {
+        display: flex;
+        justify-content: space-evenly;
+        .card {
+            text-align: center;
+            & *::selection {
+                background-color: $main-color;
+            }
+            &__number {
+                position: relative;
+                margin-bottom: 30px;
+                &::after {
+                    @include lineBelow(white, calc(50% - 15px), 30px);
+                }
+            }
+            &__title {
+                @include font(white, 16px, "Open sans", 600);
+            }
+        }
+    }
+}

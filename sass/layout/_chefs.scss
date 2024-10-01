@@ -1,0 +1,57 @@
+.chefs {
+    @extend %container;
+    & > p {
+        @extend %description;
+    }
+    &__cards {
+        display: flex;
+        justify-content: center;
+        gap: 30px;
+        padding-bottom: $padding-bottom-section;
+        .vertical-card {
+            background-color: $section-bg-color;
+            padding: 30px;
+            &__img-container {
+                width: 180px;
+                height: 180px;
+                overflow: hidden;
+                transition: all 0.5s;
+                border: 1px solid mix(#f7f7f7, black, 98%);
+                position: relative;
+                img {
+                    color: white;
+                    width: 100%;
+                    height: 100%;
+                }
+                .social-icons {
+                    position: absolute;
+                    top: 0;
+                    bottom: 0;
+                    left: 0;
+                    right: 0;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    gap: 10px;
+                    background-color: rgba($color: #000000, $alpha: 0.4);
+                    opacity: 0;
+                    transition: all 0.5s;
+                    div {
+                        color: $text-color;
+                        background-color: rgba($color: #ffffff, $alpha: 0.9);
+                        &:hover {
+                            color: white;
+                            background-color: rgba(
+                                $color: $main-color,
+                                $alpha: 0.9
+                            );
+                        }
+                    }
+                }
+            }
+            &:hover .social-icons {
+                opacity: 1;
+            }
+        }
+    }
+}

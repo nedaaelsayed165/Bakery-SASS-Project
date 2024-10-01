@@ -1,0 +1,37 @@
+.footer {
+  padding: 50px 20px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)),
+    url("img/footer-2.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  &__social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 45px;
+    div {
+      @include icon(
+        40px,
+        $text-color,
+        $dash-color,
+        none,
+        $text-color,
+        $main-color
+      );
+      text-align: center;
+      font-size: 17px;
+    }
+  }
+  &__logo {
+    img {
+      height: 47px;
+      margin-bottom: 44px;
+    }
+  }
+}

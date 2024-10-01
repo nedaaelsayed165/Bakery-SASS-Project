@@ -1,0 +1,29 @@
+.testimonials {
+  padding-inline: 20%;
+  text-align: center;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url("https://preview.milingona.co/themes/bakery/catalog/wp-content/uploads/2017/12/parallax-2.jpg?id=1996");
+  padding-block: 70px 120px;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  img {
+    border-radius: 50%;
+    overflow: hidden;
+    height: 100px;
+    width: 100px;
+    align-items: center;
+    border: 3px solid $dash-color;
+    margin-bottom: 20px;
+  }
+
+  p {
+    position: relative;
+    margin-bottom: 30px;
+    @include font(white, 16px, "Open Sans", 400);
+  }
+  p::after {
+    @include lineBelow(white, calc(50% - 15px), 30px);
+  }
+}

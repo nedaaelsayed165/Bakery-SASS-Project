@@ -1,0 +1,24 @@
+.services {
+    @extend %container;
+    padding-bottom: $padding-bottom-section;
+    & > p {
+        @extend %description;
+    }
+    &__cards {
+        display: flex;
+        .vertical-card {
+            &__img-container {
+                background-color: $main-color;
+                transition: all 0.5s;
+                img {
+                    color: white;
+                    width: 70%;
+                    height: 100%;
+                }
+            }
+            &:hover .vertical-card__img-container {
+                background-color: mix(white, black, 40%);
+            }
+        }
+    }
+}

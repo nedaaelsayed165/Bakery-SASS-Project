@@ -1,0 +1,13 @@
+.input {
+  padding: 10px;
+  width: 100%;
+  margin-bottom: 5px;
+  border: 1px solid $dash-color;
+  transition: all 0.5s;
+  &:active,
+  &:focus {
+    border: 1px solid $text-color;
+    border-radius: 0;
+    outline: none;
+  }
+}

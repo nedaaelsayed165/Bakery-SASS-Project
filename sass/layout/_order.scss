@@ -1,0 +1,17 @@
+.order {
+    @extend %container;
+    padding-bottom: $padding-bottom-section;
+    .row {
+        display: flex;
+        gap: 15px;
+        padding-bottom: 15px;
+    }
+    & > p {
+        @extend %description;
+    }
+    .button {
+        margin-top: 10px;
+        display: flex;
+        justify-content: center;
+    }
+}

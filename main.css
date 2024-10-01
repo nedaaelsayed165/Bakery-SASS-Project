@@ -1,0 +1,727 @@
+.borderless-btn, .btn-reverse, .btn {
+  padding: 8px 16px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.offer ul, .nav ul {
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  gap: 5px;
+  list-style: none;
+}
+
+.order, .chefs, .offer, .services, .nav {
+  width: 80%;
+  margin: auto;
+}
+
+.order > p, .chefs > p, .services > p {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.card--font-16px {
+  text-transform: capitalize;
+  color: #555555;
+  font-size: 16px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+}
+
+.card--font-15px {
+  text-transform: capitalize;
+  color: #555555;
+  font-size: 15px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+}
+
+.card__content--font {
+  color: #696969;
+  font-size: 13px;
+  font-family: "Open sans", sans-serif;
+  font-weight: 400;
+}
+
+.card__content__price--font {
+  color: #ebb576;
+  font-size: 16px;
+  font-family: "Open sans", sans-serif;
+  font-weight: 700;
+}
+
+.title--font {
+  text-transform: uppercase;
+  color: #555555;
+  font-size: 18px;
+  font-family: "Open sans", sans-serif;
+  font-weight: 700;
+}
+
+.subtitle--font-18px {
+  text-transform: uppercase;
+  color: #555555;
+  font-size: 18px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+}
+
+.btn--font-13px {
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #555555;
+  font-size: 13px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+}
+
+.btn-reverse--font-13px {
+  text-transform: uppercase;
+  text-decoration: none;
+  color: white;
+  font-size: 13px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+}
+
+.btn--font-14px {
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #555555;
+  font-size: 14px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+}
+
+.input--font {
+  line-height: 20px;
+  color: #696969;
+  font-size: 14px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+}
+
+.text--font-14px {
+  line-height: 20px;
+  color: #ddd;
+  font-size: 14px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+}
+
+.text--font-14px {
+  line-height: 20px;
+  color: #ddd;
+  font-size: 14px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+}
+
+.text--font-12px {
+  line-height: 20px;
+  color: #aaa;
+  font-size: 12px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+}
+
+.title--font-14px {
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #ebb576;
+  font-size: 14px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+}
+
+.borderless-btn--font {
+  text-transform: capitalize;
+  text-decoration: none;
+  color: #696969;
+  font-size: 16px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+}
+
+.description-p--font-14px {
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 400;
+  color: #696969;
+}
+
+.description-p--font-15px {
+  font-size: 15px;
+  line-height: 25px;
+  font-weight: 400;
+  color: #696969;
+}
+
+.statistic-card--font-48 {
+  font-size: 48px;
+  line-height: 1em;
+  color: white;
+  font-size: 48px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 30px 0;
+}
+.nav img {
+  width: 110px;
+}
+.nav ul {
+  justify-content: flex-end;
+}
+
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 85vh;
+  background-image: url("https://preview.milingona.co/themes/bakery/catalog/wp-content/uploads/2017/12/slide-1.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+.hero__left-arrow {
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+  border-radius: 50%;
+  border: 2px solid white;
+  background-color: transparent;
+  transition: all 0.3s;
+  color: white;
+  display: inline-block;
+  cursor: pointer;
+  text-align: center;
+  font-size: 25px;
+  margin: 20px;
+}
+.hero__left-arrow:hover {
+  background-color: white;
+  color: #ebb576;
+}
+.hero__right-arrow {
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+  border-radius: 50%;
+  border: 2px solid white;
+  background-color: transparent;
+  transition: all 0.3s;
+  color: white;
+  display: inline-block;
+  cursor: pointer;
+  text-align: center;
+  font-size: 25px;
+  margin: 20px;
+}
+.hero__right-arrow:hover {
+  background-color: white;
+  color: #ebb576;
+}
+.hero__text {
+  position: relative;
+  margin: auto;
+  text-align: center;
+  width: 50%;
+}
+.hero__text p:first-child {
+  color: #ebb576;
+  font-size: 25px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+  line-height: 35px;
+}
+.hero__text h1 {
+  color: white;
+  font-size: 35px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  line-height: 35px;
+  margin-block: 5px 15px;
+}
+.hero__text p:last-child {
+  color: rgba(255, 255, 255, 0.9);
+  font-size: 18px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  line-height: 24px;
+}
+.hero__points {
+  display: flex;
+  align-self: center;
+  gap: 10px;
+  position: absolute;
+  bottom: 25px;
+  left: calc(50% - 25px);
+}
+
+.services {
+  padding-bottom: 50px;
+}
+.services__cards {
+  display: flex;
+}
+.services__cards .vertical-card__img-container {
+  background-color: #ebb576;
+  transition: all 0.5s;
+}
+.services__cards .vertical-card__img-container img {
+  color: white;
+  width: 70%;
+  height: 100%;
+}
+.services__cards .vertical-card:hover .vertical-card__img-container {
+  background-color: #666666;
+}
+
+.bakery {
+  display: flex;
+}
+.bakery__image-container {
+  flex: 1.25;
+}
+.bakery__image-container img {
+  width: 100%;
+  height: 100%;
+}
+.bakery__text {
+  flex: 1;
+  padding: 70px;
+  background-color: #f7f7f7;
+}
+.bakery__text__title {
+  position: relative;
+  margin-bottom: 40px;
+}
+.bakery__text__title::after {
+  content: "";
+  position: absolute;
+  bottom: -15px;
+  left: 0;
+  position: absolute;
+  height: 2px;
+  width: 50px;
+  background-color: #ebb576;
+}
+.bakery__text p:not(:last-child) {
+  margin-bottom: 15px;
+}
+.bakery__button {
+  margin-top: 40px;
+}
+
+.offer {
+  padding-bottom: 50px;
+}
+.offer__cards {
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 24px;
+  margin-block: 40px;
+}
+.offer__button {
+  text-align: center;
+  margin: 10px 0;
+}
+.offer ul {
+  justify-content: center;
+}
+.offer ul li {
+  position: relative;
+}
+.offer ul li:not(:first-child)::before {
+  content: "";
+  height: 6px;
+  width: 6px;
+  border-radius: 50%;
+  position: absolute;
+  left: -5px;
+  top: calc(50% - 3px);
+  background-color: #555555;
+}
+
+.statistics {
+  background-image: linear-gradient(rgba(235, 181, 118, 0.95), rgba(235, 181, 118, 0.95)), url("https://preview.milingona.co/themes/bakery/catalog/wp-content/uploads/2017/12/pattern-1.jpg?id=2228");
+  padding: 70px;
+}
+.statistics__cards {
+  display: flex;
+  justify-content: space-evenly;
+}
+.statistics__cards .card {
+  text-align: center;
+}
+.statistics__cards .card *::selection {
+  background-color: #ebb576;
+}
+.statistics__cards .card__number {
+  position: relative;
+  margin-bottom: 30px;
+}
+.statistics__cards .card__number::after {
+  content: "";
+  position: absolute;
+  bottom: -15px;
+  left: calc(50% - 15px);
+  position: absolute;
+  height: 2px;
+  width: 30px;
+  background-color: white;
+}
+.statistics__cards .card__title {
+  color: white;
+  font-size: 16px;
+  font-family: "Open sans", sans-serif;
+  font-weight: 600;
+}
+
+.chefs__cards {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  padding-bottom: 50px;
+}
+.chefs__cards .vertical-card {
+  background-color: #f7f7f7;
+  padding: 30px;
+}
+.chefs__cards .vertical-card__img-container {
+  width: 180px;
+  height: 180px;
+  overflow: hidden;
+  transition: all 0.5s;
+  border: 1px solid #f2f2f2;
+  position: relative;
+}
+.chefs__cards .vertical-card__img-container img {
+  color: white;
+  width: 100%;
+  height: 100%;
+}
+.chefs__cards .vertical-card__img-container .social-icons {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  background-color: rgba(0, 0, 0, 0.4);
+  opacity: 0;
+  transition: all 0.5s;
+}
+.chefs__cards .vertical-card__img-container .social-icons div {
+  color: #696969;
+  background-color: rgba(255, 255, 255, 0.9);
+}
+.chefs__cards .vertical-card__img-container .social-icons div:hover {
+  color: white;
+  background-color: rgba(235, 181, 118, 0.9);
+}
+.chefs__cards .vertical-card:hover .social-icons {
+  opacity: 1;
+}
+
+.testimonials {
+  padding-inline: 20%;
+  text-align: center;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("https://preview.milingona.co/themes/bakery/catalog/wp-content/uploads/2017/12/parallax-2.jpg?id=1996");
+  padding-block: 70px 120px;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.testimonials img {
+  border-radius: 50%;
+  overflow: hidden;
+  height: 100px;
+  width: 100px;
+  align-items: center;
+  border: 3px solid #ddd;
+  margin-bottom: 20px;
+}
+.testimonials p {
+  position: relative;
+  margin-bottom: 30px;
+  color: white;
+  font-size: 16px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+}
+.testimonials p::after {
+  content: "";
+  position: absolute;
+  bottom: -15px;
+  left: calc(50% - 15px);
+  position: absolute;
+  height: 2px;
+  width: 30px;
+  background-color: white;
+}
+
+.order {
+  padding-bottom: 50px;
+}
+.order .row {
+  display: flex;
+  gap: 15px;
+  padding-bottom: 15px;
+}
+.order .button {
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+.gallery {
+  display: flex;
+  padding-block: 30px 0;
+}
+.gallery__item {
+  width: 16.6666666667%;
+  cursor: pointer;
+  transition: all 0.5s;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 225px;
+  position: relative;
+}
+.gallery__item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: all 0.5s;
+}
+.gallery__item__show {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: transparent;
+  transition: all 0.5s;
+}
+.gallery__item:hover img {
+  scale: 1.05;
+}
+.gallery__item:hover .gallery__item__show {
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+.footer {
+  padding: 50px 20px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)), url("img/footer-2.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.footer__social-icons {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 45px;
+}
+.footer__social-icons div {
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  border-radius: 50%;
+  border: none;
+  background-color: #696969;
+  transition: all 0.3s;
+  color: #ddd;
+  display: inline-block;
+  cursor: pointer;
+  text-align: center;
+  font-size: 17px;
+}
+.footer__social-icons div:hover {
+  background-color: #696969;
+  color: #ebb576;
+}
+.footer__logo img {
+  height: 47px;
+  margin-bottom: 44px;
+}
+
+.horizontal-card {
+  display: flex;
+  width: 50%;
+  padding: 0 15px;
+}
+.horizontal-card img {
+  border-radius: 50%;
+  margin-right: 20px;
+  width: 115px;
+  height: 115px;
+}
+.horizontal-card p {
+  line-height: 24px;
+}
+.horizontal-card__price {
+  color: #ebb576;
+}
+
+.vertical-card {
+  display: flex;
+  flex-wrap: wrap;
+  width: 25%;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  width: 50%;
+  padding: 0 15px;
+}
+.vertical-card__img-container {
+  border-radius: 50%;
+  width: 140px;
+  height: 140px;
+  margin-bottom: 30px;
+}
+.vertical-card h2 {
+  margin-bottom: 15px;
+}
+.vertical-card p {
+  line-height: 24px;
+}
+
+.title {
+  display: flex;
+  justify-content: center;
+  margin: 50px 0 40px;
+  position: relative;
+}
+.title::before {
+  content: "";
+  background-color: #ddd;
+  height: 2px;
+  width: 150px;
+  position: absolute;
+  bottom: -12px;
+}
+.title::after {
+  content: "";
+  background-color: #ebb576;
+  height: 2px;
+  width: 50px;
+  position: absolute;
+  bottom: -12px;
+}
+
+.btn {
+  background-color: white;
+  border: 2px solid #555555;
+}
+.btn:hover {
+  color: white;
+  background-color: #555555;
+  transition: 0.3s all ease-in-out;
+}
+
+.btn--color-orange:hover {
+  color: #ebb576;
+  background-color: white;
+  transition: 0.3s all ease-in-out;
+  border-color: #ebb576;
+}
+
+.btn-reverse {
+  background-color: #ebb576;
+  border: 2px solid #ebb576;
+}
+.btn-reverse:hover {
+  color: #ebb576;
+  background-color: white;
+  transition: 0.3s all ease-in-out;
+}
+
+.borderless-btn {
+  background-color: white;
+}
+.borderless-btn:hover {
+  color: #ebb576;
+  background-color: white;
+  transition: 0.3s all ease-in-out;
+}
+.borderless-btn.active {
+  color: #ebb576;
+}
+
+.point {
+  border: 2px solid white;
+  height: 15px;
+  width: 15px;
+  border-radius: 50%;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+.point::before {
+  content: "";
+  height: 8px;
+  width: 8px;
+  border-radius: 50%;
+  background-color: transparent;
+  transition: all 0.3s;
+}
+.point.active::before, .point:hover::before {
+  background-color: white;
+}
+
+.social-icon--radius-42px {
+  width: 42px;
+  height: 42px;
+  line-height: 42px;
+  border-radius: 50%;
+  border: none;
+  background-color: white;
+  transition: all 0.3s;
+  color: #555555;
+  display: inline-block;
+  cursor: pointer;
+}
+.social-icon--radius-42px:hover {
+  background-color: #ebb576;
+  color: white;
+}
+
+.input {
+  padding: 10px;
+  width: 100%;
+  margin-bottom: 5px;
+  border: 1px solid #ddd;
+  transition: all 0.5s;
+}
+.input:active, .input:focus {
+  border: 1px solid #696969;
+  border-radius: 0;
+  outline: none;
+}/*# sourceMappingURL=main.css.map */

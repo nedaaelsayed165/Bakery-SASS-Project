@@ -1,0 +1,33 @@
+.offer {
+    @extend %container;
+    padding-bottom: $padding-bottom-section;
+    &__cards {
+        display: flex;
+        flex-wrap: wrap;
+        row-gap: $gap;
+        margin-block: 40px;
+    }
+
+    &__button {
+        text-align: center;
+        margin: 10px 0;
+    }
+
+    ul {
+        @extend %list;
+        justify-content: center;
+        li {
+            position: relative;
+            &:not(:first-child)::before {
+                content: "";
+                height: 6px;
+                width: 6px;
+                border-radius: 50%;
+                position: absolute;
+                left: -5px;
+                top: calc(50% - 3px);
+                background-color: $btn-decoration-color;
+            }
+        }
+    }
+}

@@ -1,0 +1,94 @@
+.card--font-16px {
+    text-transform: capitalize;
+    @include font($titles-color, 16px, "Poppins", 600);
+}
+.card--font-15px {
+    text-transform: capitalize;
+    @include font($titles-color, 15px, "Poppins", 600);
+}
+
+.card__content--font {
+    @include font($text-color, 13px, "Open sans", 400);
+}
+
+.card__content__price--font {
+    @include font($main-color, 16px, "Open sans", 700);
+}
+
+.title--font {
+    text-transform: uppercase;
+    @include font($titles-color, 18px, "Open sans", 700);
+}
+.subtitle--font-18px {
+    text-transform: uppercase;
+    @include font($titles-color, 18px, "Poppins", 600);
+}
+
+.btn--font-13px {
+    text-transform: uppercase;
+    text-decoration: none;
+    @include font($btn-color, 13px, "Poppins", 700);
+}
+
+.btn-reverse--font-13px {
+    text-transform: uppercase;
+    text-decoration: none;
+    @include font(white, 13px, "Poppins", 700);
+}
+
+.btn--font-14px {
+    text-transform: uppercase;
+    text-decoration: none;
+    @include font($btn-color, 14px, "Poppins", 700);
+}
+
+.input--font {
+    line-height: 20px;
+    @include font($text-color, 14px, "Open Sans", 400);
+}
+
+.text--font-14px {
+    line-height: 20px;
+    @include font(#ddd, 14px, "Open Sans", 400);
+}
+.text--font-14px {
+    line-height: 20px;
+    @include font(#ddd, 14px, "Open Sans", 400);
+}
+
+.text--font-12px {
+    line-height: 20px;
+    @include font(#aaa, 12px, "Open Sans", 400);
+}
+
+.title--font-14px {
+    text-transform: uppercase;
+    text-decoration: none;
+    @include font($main-color, 14px, "Poppins", 600);
+}
+
+.borderless-btn--font {
+    text-transform: capitalize;
+    text-decoration: none;
+    @include font($text-color, 16px, "Open Sans", 400);
+}
+
+.description-p--font-14px {
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 400;
+    color: $text-color;
+}
+
+.description-p--font-15px {
+    font-size: 15px;
+    line-height: 25px;
+    font-weight: 400;
+    color: $text-color;
+}
+
+.statistic-card--font-48 {
+    font-size: 48px;
+    line-height: 1em;
+    @include font(white, 48px, "Poppins", 400);
+}

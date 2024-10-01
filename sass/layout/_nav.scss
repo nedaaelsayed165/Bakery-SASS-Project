@@ -1,0 +1,13 @@
+.nav {
+  @extend %container;
+  display: flex;
+  justify-content: space-between;
+  padding: 30px 0;
+  img {
+    width: 110px;
+  }
+  ul {
+    @extend %list;
+    justify-content: flex-end;
+  }
+}
